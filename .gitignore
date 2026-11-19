@@ -1,0 +1,9 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+
+# Багшийн файлууд (репод оруулахгүй)
+app.js
+*.docx
