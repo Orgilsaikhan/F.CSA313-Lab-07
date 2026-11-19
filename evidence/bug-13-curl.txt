@@ -1,0 +1,7 @@
+$ curl -i -X POST localhost:3000/api/books -H 'Content-Type: application/json' -d 'null'
+curl: (52) Empty reply from server
+(curl exit code: 52)
+
+$ curl -i localhost:3000/
+curl: (7) Failed to connect to localhost port 3000 after 0 ms: Could not connect to server
+(curl exit code: 7)

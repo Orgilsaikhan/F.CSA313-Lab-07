@@ -1,0 +1,14 @@
+$ node app.js
+# (тэмдэглэл: app.js-ийн бүтэн замыг ./ болгож товчилсон)
+Уншлагын жагсаалт: http://localhost:3000
+./app.js:130
+        title: esc(data.title || ''),
+                        ^
+
+TypeError: Cannot read properties of null (reading 'title')
+    at IncomingMessage.<anonymous> (./app.js:130:25)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+Node.js v22.22.1
